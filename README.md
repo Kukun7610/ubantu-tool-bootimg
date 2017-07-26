@@ -1,5 +1,5 @@
 Ubantu Boot Tool
-----------------
+================
 
 
 
@@ -21,14 +21,20 @@ How to Unpack bootimg
 ---------------------
 
 Copy the boot.img file into ubantu-tool-bootimg folder
+
 Open terminal on same folder
+
 Run script
+
 ```bash
   ./boot-tool boot.img boot
 ```
 on there 
+
 boot.img is origenal bootimg file
+
 boot folder is after extraction of boot.img file
+
 Example
  
 ```bash        
