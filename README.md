@@ -9,7 +9,7 @@ How To Download
 
  Choose your Local Directory
 ```bash
-  cd /home/$user$/Workspace
+  $ cd /home/$user$/Workspace
 ```
 Open terminal on this Directory
 Type Those command for Download it
@@ -27,7 +27,7 @@ Open terminal on same folder
 Run script
 
 ```bash
-  ./boot-tool boot.img boot
+  $ ./boot-tool boot.img boot
 ```
 on there 
 
@@ -38,7 +38,7 @@ boot folder is after extraction of boot.img file
 Example
  
 ```bash        
-./boot-tool boot.img boot
+$ ./boot-tool boot.img boot
 Unpack & decompress boot.img to boot
   kernel         : /home/$USER$/workspace/ubantu-tool-bootimg/boot/zImage
   ramdisk        : /home/$USER$/workspace/ubantu-tool-bootimg/boot/ramdisk.gz
@@ -68,7 +68,7 @@ run script
 
 
 ```bash
-  ./boot-tool boot newboot.img
+  $ ./boot-tool boot newboot.img
 ```
 on there 
 
@@ -80,7 +80,7 @@ Example
 
 
 ```bash
-./boot-tool boot newboot.img
+ $ ./boot-tool boot newboot.img
 mkbootimg from boot/img_info.
   kernel         : /home/$USER$/workspace/ubantu-tool-bootimg/boot/zImage
   ramdisk        : /home/$USER$/workspace/ubantu-tool-bootimg/boot/new_ramdisk.gz
