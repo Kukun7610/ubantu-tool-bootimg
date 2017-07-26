@@ -21,20 +21,15 @@ How to Unpack bootimg
 ---------------------
 
 Copy the boot.img file into ubantu-tool-bootimg folder
-
 Open terminal on same folder
-
 Run script
 
 ```bash
   $ ./boot-tool boot.img boot
 ```
 on there 
-
 boot.img is origenal bootimg file
-
 boot folder is after extraction of boot.img file
-
 Example
  
 ```bash        
@@ -61,9 +56,7 @@ How to Repack bootimg
 ---------------------
 
 After Modify boot folder
-
 Open terminal on same folder
-
 run script
 
 
@@ -71,11 +64,8 @@ run script
   $ ./boot-tool boot newboot.img
 ```
 on there 
-
 boot.img is origenal bootimg file
-
 boot folder is after extraction of boot.img file
-
 Example
 
 
