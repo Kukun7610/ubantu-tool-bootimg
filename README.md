@@ -7,13 +7,13 @@ Ubantu Boot Tool
 How To Download
 ---------------
 
- Choose your Local Directory
+► Choose your Local Directory
 ```bash
   $ cd /home/$user$/Workspace
 ```
-Open terminal on this Directory
+► Open terminal on this Directory
 
-Type Those command for Download it
+► Type Those command for Download it
 ```bash
   $ git clone https://github.com/Kukun7610/ubantu-tool-bootimg.git
 ```
@@ -21,23 +21,23 @@ Type Those command for Download it
 How to Unpack bootimg
 ---------------------
 
-Copy the boot.img file into ubantu-tool-bootimg folder
+► Copy the boot.img file into ubantu-tool-bootimg folder
 
-Open terminal on same folder
+► Open terminal on same folder
 
-Run script
+► Run script
 
 
 ```bash
   $ ./boot-tool boot.img boot
 ```
-on there 
+► on there 
 
-boot.img is origenal bootimg file
+► boot.img is origenal bootimg file
 
-boot folder is after extraction of boot.img file
+► boot folder is after extraction of boot.img file
 
-Example
+► Example
 
  
 ```bash        
@@ -63,24 +63,24 @@ Unpack & decompress boot.img to boot
 How to Repack bootimg
 ---------------------
 
-After Modify boot folder
+► After Modify boot folder
 
-Open terminal on same folder
+► Open terminal on same folder
 
-run script
+► run script
 
 
 
 ```bash
   $ ./boot-tool boot newboot.img
 ```
-on there 
+► on there 
 
-boot.img is origenal bootimg file
+► boot.img is origenal bootimg file
 
-boot folder is after extraction of boot.img file
+► boot folder is after extraction of boot.img file
 
-Example
+► Example
 
 
 
