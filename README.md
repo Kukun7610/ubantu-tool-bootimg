@@ -1,7 +1,7 @@
 Ubantu Boot Tool
 ================
 
-
+it is a ubantu system tool for unpacking and repacking Boot.img files for Qualcomm devices
 
 
 How To Download
@@ -11,9 +11,9 @@ How To Download
 ```bash
   $ cd /home/$user$/Workspace
 ```
-► Open terminal on this Directory`
+► Open terminal on this Directory
 
-► Type Those command for Download it`
+► Type Those command for Download it
 
 
 ```bash
@@ -23,11 +23,11 @@ How To Download
 How to Unpack bootimg
 ---------------------
 
-► Copy the boot.img file into ubantu-tool-bootimg folder`
+► Copy the boot.img file into ubantu-tool-bootimg folder
 
-► Open terminal on same folder`
+► Open terminal on same folder
 
-► Run script`
+► Run script
 
 
 
@@ -35,13 +35,13 @@ How to Unpack bootimg
   $ ./boot-tool boot.img boot
 ```
 
-► on there` 
+► on there
 
-► boot.img is origenal bootimg file`
+► boot.img is origenal bootimg file
 
-► boot folder is after extraction of boot.img file`
+► boot folder is after extraction of boot.img file
 
-► Example`
+► Example
 
 
  
@@ -68,11 +68,11 @@ Unpack & decompress boot.img to boot
 How to Repack bootimg
 ---------------------
 
-► After Modify boot folder`
+► After Modify boot folder
 
-► Open terminal on same folder`
+► Open terminal on same folder
 
-► run script`
+► run script
 
 
 
@@ -81,13 +81,13 @@ How to Repack bootimg
   $ ./boot-tool boot newboot.img
 ```
 
-► on there`
+► on there
 
-► boot.img is origenal bootimg file`
+► boot.img is origenal bootimg file
 
-► boot folder is after extraction of boot.img file`
+► boot folder is after extraction of boot.img file
 
-► Example`
+► Example
 
 
 
