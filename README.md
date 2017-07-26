@@ -11,8 +11,8 @@ How To Download
 ```bash
   cd /home/$user$/Workspace
 ```
- Open terminal on this Directory
- Type Those command for Download it
+Open terminal on this Directory
+Type Those command for Download it
 ```bash
   $ git clone https://github.com/Kukun7610/ubantu-tool-bootimg.git
 ```
@@ -61,16 +61,23 @@ How to Repack bootimg
 ---------------------
 
 After Modify boot folder
+
 Open terminal on same folder
+
 run script
+
 
 ```bash
   ./boot-tool boot newboot.img
 ```
 on there 
+
 boot.img is origenal bootimg file
+
 boot folder is after extraction of boot.img file
+
 Example
+
 
 ```bash
 ./boot-tool boot newboot.img
