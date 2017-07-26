@@ -12,7 +12,9 @@ How To Download
   $ cd /home/$user$/Workspace
 ```
 ► Open terminal on this Directory`
+
 ► Type Those command for Download it`
+
 
 ```bash
   $ git clone https://github.com/Kukun7610/ubantu-tool-bootimg.git
@@ -22,8 +24,11 @@ How to Unpack bootimg
 ---------------------
 
 ► Copy the boot.img file into ubantu-tool-bootimg folder`
+
 ► Open terminal on same folder`
+
 ► Run script`
+
 
 
 ```bash
@@ -31,9 +36,13 @@ How to Unpack bootimg
 ```
 
 ► on there` 
+
 ► boot.img is origenal bootimg file`
+
 ► boot folder is after extraction of boot.img file`
+
 ► Example`
+
 
  
 ```bash        
@@ -60,8 +69,11 @@ How to Repack bootimg
 ---------------------
 
 ► After Modify boot folder`
+
 ► Open terminal on same folder`
+
 ► run script`
+
 
 
 
@@ -69,10 +81,14 @@ How to Repack bootimg
   $ ./boot-tool boot newboot.img
 ```
 
-► on there `
+► on there`
+
 ► boot.img is origenal bootimg file`
+
 ► boot folder is after extraction of boot.img file`
+
 ► Example`
+
 
 
 
@@ -94,3 +110,10 @@ mkbootimg from boot/img_info.
 Kernel size: 4146912, new ramdisk size: 87, newboot.img: 4571136.
 newboot.img has been created.
 ```
+
+History
+-------
+
+No DATA
+
+
